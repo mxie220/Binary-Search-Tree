@@ -1,0 +1,28 @@
+import java.awt.List;
+
+public class Main {
+	
+	public int[] node(int i) {
+		int[] node = new int[3];
+		node[0] = i;
+		return node;
+	}
+
+	public void check_left(int[] c,int n) {
+		int current = c[0];
+		
+		if (n < current) {
+			current = c[1];
+			
+		}
+			
+			
+	}
+	public static void main(String[] args) {
+		
+		int[] root = new Main().node(1);
+		System.out.println(root[2]);
+
+	}
+
+}
